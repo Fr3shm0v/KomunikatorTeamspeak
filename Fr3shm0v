@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<style>
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;  // Łukasz
+}
+
+.baner {
+    height: 60px;
+    width: auto;
+    background-color: dodgerblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: -8px;
+    z-index: 1;           // Kuba
+}
+
+.leftblock {
+    width: 15%;
+    height: 100%;
+    background-color: darkgrey;         // Kuba
+}
+
+.rightblock {
+    width: 15%;
+    height: 100%;
+    background-color: darkgrey;         // Kuba
+}
+
+
+.tytul {
+    height: 5%;
+    width: 60%;
+    background-color: red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 50px;
+    float: left;                         // Kuba
+}
+
+.tekst {
+    height: 30%;
+    width: 60%;
+    background-color: blue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: left;                         // Kuba
+}
+
+.middleblocktxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: green;             // Kuba
+}
+
+.lejek {
+    display: flex;
+    flex-direction: row;
+    height: 100%;                        // Łukasz
+}
+</style>
+
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+
+    <div class="baner">
+        WSZYSTKO O TEAMSPEAK
+    </div>
+
+
+    <div class="chuj">
+        <div class="leftblock">
+
+        </div>
+        <div class="middleblocktxt">
+            <div class="tytul">
+
+            </div>
+            <div class="tekst">
+
+            </div>
+        </div>
+
+
+
+
+        <div class="rightblock">
+
+        </div>
+
+
+
+    </div>
+    // Kuba
